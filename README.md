@@ -77,20 +77,16 @@ The official competition dataset, reference answers, baseline notebook, and
 submission CSV files are intentionally not redistributed. Reproducing the
 competition evaluation requires the official data package from the organizer.
 
-## What I Learned
-
-### 한국어
+## What I Learned · 배운 점
 
 이 프로젝트를 통해 에이전트 성능이 모델 크기만으로 결정되지 않는다는 점을
 실험했습니다. 모호한 참조 해소, 동의 상태, 외부 공유 경계, 최소 공개 원칙과
 실행 순서를 명시적으로 모델링하면서 안전한 에이전트 로직을 설계했습니다.
 
-### English
-
-This project explored how reliable agent behavior depends on the surrounding
-control system, not only the model. I explicitly modeled reference resolution,
-consent state, external-sharing boundaries, minimal disclosure, and action
-ordering.
+This work showed me that reliable agent behavior depends on the surrounding
+control system, not only on model size. The implementation makes reference
+resolution, consent state, external-sharing boundaries, minimal disclosure,
+and action ordering explicit and auditable.
 
 ## Limitations
 
