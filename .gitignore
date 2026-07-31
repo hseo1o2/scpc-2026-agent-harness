@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Competition-provided or generated artifacts
+data/
+*.zip
+submission*.csv
+*.ipynb
+
+# Local agent/editor configuration
+.claude/
+.codex/
+.env
+.env.*
+!.env.example
