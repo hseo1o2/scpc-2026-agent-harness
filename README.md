@@ -1,7 +1,7 @@
 # SCPC 2026 AI Agent Harness
 
 > 2026 Samsung Collegiate Programming Challenge: AI Challenge  
-> Round 1 participant · Public leaderboard score: **0.7424**
+> Round 1 participant · Best public leaderboard score: **0.8054**
 
 사용자 요청, 기기 상태, 대화 이력, 메모리와 안전 신호를 해석해 실행 계획을
 구조화된 JSON으로 생성하는 결정론적 AI Agent Harness입니다.
@@ -41,11 +41,12 @@ large language model:
 
 | Evaluation | Result |
 |---|---:|
-| SCPC 2026 Round 1 public leaderboard | **0.7424** |
+| SCPC 2026 Round 1 best public leaderboard score | **0.8054** |
+| Public score improvement across iterations | **0.5506 → 0.8054 (+0.2548)** |
 | External model/API calls at inference | **0** |
 | Implementation | Python standard library |
 
-The public leaderboard score is not a final or private ranking. I participated
+The best public leaderboard score is not a final or private ranking. I participated
 in Round 1 and did not advance to the next round.
 
 ## Repository Structure
